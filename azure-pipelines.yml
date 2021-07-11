@@ -2,7 +2,7 @@ pool:
   vmImage: 'windows-latest'
 
 variables:
-  solution: '**/*.sln'
+  solution: '*.sln'
   buildPlatform: 'x64'
   buildConfiguration: 'Debug'
 
